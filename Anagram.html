@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<!--This is default layout portion. Includes header and sidebar-->
+<head>
+  <title>Abhijeet Saha's Website</title>
+  <link rel="stylesheet" type="text/css" href='style.css'>
+  <style>
+  h3 {color: white; background-color: powderblue;  font-family: "Times New Roman", Times, serif; font-size: 250%;}
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    Welcome to Abhijeet Saha's Website
+  </div>
+  <div class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="Magic8.html">Magic 8 Ball</a>
+    <a href="Anagram.html">Permutation and Anagram Identifier</a>
+    <a href="FormResponse.html">Form Response</a>
+    <a href="Dictionaries.html">Dictionaries</a>
+  </div>
+<!--ends here-->
+    <div class = "main">
+    <form method = "post" action = "Anagram.py" >
+      Enter a word (max 7 characters): <input type="text" name="word"
+                                     placeholder="e.g. racecar"
+                                     maxlength="7" 
+                                     autofocus required="required">
+      <br>
+      <input type="submit" name="submitname" value="Submit Word" />
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+/* The side navigation bar */
+.sidenav {
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 10vw; /* Stay at the top */
+  left: 10px;
+  background-color: #eee; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  height:auto;
+}
+
+/* The links on the sidebar */
+.sidenav a {
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #064579;
+}
+
+/* The Header */
+.navbar {
+  overflow: hidden;
+  background-color: lightblue;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 5px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+  font-size: 4.5vw;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-top: 8vw;
+  padding: 10px 10px;
+}
+
+h3 {
+  color: #c42929;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+
+p  {
+  color: #302c2c;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100%;
+}
+
+#A {
+  color: #6982aa;
+  font-family: Consolas, monaco, monospace;
+  font-size: 120%;
+  font-weight: 100;
+}
+
+#B {
+  color: #893ca8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 105%;
+}
+
+

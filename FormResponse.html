@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<!--This is default layout portion. Includes header and sidebar-->
+	<head>
+		<title>Abhijeet Saha's Website</title>
+		<link rel="stylesheet" type="text/css" href='style.css'>
+		<style>
+		h3 {color: white; background-color: powderblue;  font-family: "Times New Roman", Times, serif; font-size: 250%;}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			Welcome to Abhijeet Saha's Website
+		</div>
+		<div class="sidenav">
+			<a href="index.html">Home</a>
+			<a href="Magic8.html">Magic 8 Ball</a>
+			<a href="Anagram.html">Permutation and Anagram Identifier</a>
+			<a href="FormResponse.html">Form Response</a>
+			<a href="Dictionaries.html">Dictionaries</a>
+		</div>
+	<!--ends here-->
+    <div class = "main">
+    <form method="GET" action="FormResponse.py">
+        <p>Dear  
+        <input type="radio" name="title" value="Mr."> Mr.
+		<input type="radio" name="title" value="Mrs."> Mrs.
+		<input type="radio" name="title" value="Dr." checked=""> Dr.
+		<input type="radio" name="title" value="Ms."> Ms. 
+	  <input type="text" name="Name" placeholder="Name" autofocus required ="required">,
+          <br>
+	 We have detected someone who has opened a
+	 <select name="item1" size="1">
+  		<option>bag of lucky charms</option>
+ 		<option>jar full of facts and logic</option>
+  		<option>massive wormhole</option>
+  		<option>path to salvation</option>
+	 	</select>
+		and it's causing the space time continuum to implode. If we all work 
+		together we may be able to stop him before the universe reaches critical mass. 
+		We need all of you to send us all of your
+	<select name="item2" size="1">
+  		<option>laser pointers</option>
+ 		<option>fidget spinners</option>
+  		<option>Yu-Gi-Oh! cards</option>
+  		<option>Byakugans</option>
+	 	</select> 
+		, it's the best chance we have at taking him down.
+		<br>
+		Sincerely,
+		<br>
+		The Association of Intergalactic Safety
+		<br>
+		</p>
+          <input type="submit" name="submitname" value="Submit Letter">
+        </form>
+    </div>
+  </body>
+</html>
